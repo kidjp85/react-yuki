@@ -1,0 +1,22 @@
+{
+  "name": "@react-yuki/icons",
+  "version": "0.0.1",
+  "description": "Svg icon React components",
+  "keywords": [
+    "React",
+    "Svg icons"
+  ],
+  "main": "lib/index",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  },
+  "author": "Asher Nguyen <phucnguyenhoang1985@gmail.com>",
+  "license": "MIT"
+}
