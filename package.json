@@ -1,5 +1,4 @@
 {
-  "name": "react-yuki",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -7,7 +6,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "tsc -b packages/ui packages/icons",
-    "test": "lerna run test",
+    "test": "jest --coverage --detectOpenHandles",
     "clean": "rimraf packages/**/lib",
     "lint:ts": "tslint 'packages/**/*.ts{,x}'",
     "lint:ts:fix": "tslint 'packages/**/*.ts{,x}' --fix",
@@ -18,12 +17,18 @@
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/enzyme": "^3.9.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/jest": "^24.0.15",
     "@types/react": "^16.8.7",
     "@types/react-dom": "^16.8.2",
     "@types/react-test-renderer": "^16.8.1",
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.5",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.3.5",
     "husky": "^2.3.0",
     "jest": "^24.8.0",
     "jest-styled-components": "^6.3.3",
@@ -46,39 +51,6 @@
     "tslint-plugin-prettier": "^2.0.1",
     "tslint-react": "^3.6.0",
     "typescript": "^3.5.2"
-  },
-  "jest": {
-    "resetMocks": true,
-    "resetModules": true,
-    "verbose": true,
-    "browser": true,
-    "collectCoverage": true,
-    "transform": {
-      "^.+\\.(js|jsx)$": "babel-jest",
-      "^.+\\.(ts|tsx)$": "ts-jest"
-    },
-    "setupFilesAfterEnv": [
-      "jest-styled-components"
-    ],
-    "coverageReporters": [
-      "html",
-      "lcov"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100,
-        "statements": 100
-      }
-    },
-    "coveragePathIgnorePatterns": [
-      "/node_modules/",
-      "/lib/"
-    ],
-    "testMatch": [
-      "<rootDir>/packages/*/tests/**/*.test.(ts|tsx|js)"
-    ]
   },
   "author": "Asher Nguyen <phucnguyenhoang1985@gmail.com>",
   "license": "MIT"

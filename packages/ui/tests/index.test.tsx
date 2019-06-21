@@ -80,7 +80,7 @@ describe('Button', () => {
 
     expect(json!.type).toBe('button');
     expect(json).toHaveStyleRule('color', 'white');
-    expect(json).toHaveStyleRule('background-color', 'blue');
+    expect(json).toHaveStyleRule('background-color', 'orange.3');
   });
 
   test('renders as <a>', () => {

@@ -197,7 +197,7 @@ Button.defaultProps = {
   px: 3,
   py: 3,
   color: 'white',
-  bg: 'blue',
+  bg: 'orange.3',
   border: 0
 };
 
