@@ -3,6 +3,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
+  },
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "tsc -b packages/ui packages/icons",
@@ -11,7 +16,8 @@
     "lint:ts": "tslint 'packages/**/*.ts{,x}'",
     "lint:ts:fix": "tslint 'packages/**/*.ts{,x}' --fix",
     "lint:style": "stylelint 'packages/**/*.ts?(x)'",
-    "lint:style:fix": "stylelint 'packages/**/*.ts?(x)' --fix"
+    "lint:style:fix": "stylelint 'packages/**/*.ts?(x)' --fix",
+    "lint": "yarn lint:ts && yarn lint:style"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",

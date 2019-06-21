@@ -34,7 +34,7 @@ module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js'],
   notify: true,
   notifyMode: 'always',
-  roots: ['<rootDir>packages'],
+  roots: ['<rootDir>/packages'],
   testMatch: [
     '<rootDir>/packages/*/tests/**/*.test.(ts|tsx|js)'
   ],
