@@ -8,7 +8,13 @@
       "pre-commit": "yarn lint"
     }
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
   "scripts": {
+    "commit": "git-cz",
     "bootstrap": "lerna bootstrap",
     "build": "tsc -b packages/ui packages/icons",
     "test": "jest --coverage --detectOpenHandles",
@@ -32,6 +38,8 @@
     "@types/react-test-renderer": "^16.8.1",
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.5",
+    "commitizen": "^3.1.1",
+    "cz-lerna-changelog": "^2.0.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.3.5",
