@@ -17,7 +17,10 @@
   "devDependencies": {
     "typescript": "^3.5.2"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Asher Nguyen <phucnguyenhoang1985@gmail.com>",
   "license": "MIT",
-  "gitHead": "35e65c78e498f0b207bdae88596049552f50e187"
+  "gitHead": "cfbbd4408671e5d95441460af6fe56bb1c681598"
 }

@@ -13,9 +13,6 @@
       "path": "./node_modules/cz-lerna-changelog"
     }
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "commit": "git-cz",
     "bootstrap": "lerna bootstrap",
