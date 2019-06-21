@@ -26,6 +26,11 @@ module.exports = {
       statements: 80,
     },
   },
+  globals: {
+    'ts-jest': {
+      extends: './babel.config.js',
+    },
+  },
   moduleFileExtensions: ['ts', 'tsx', 'js'],
   notify: true,
   notifyMode: 'always',
