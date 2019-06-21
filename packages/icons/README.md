@@ -1,11 +1,4 @@
-# `icons`
+@react-uki/icons
+================
 
-> TODO: description
-
-## Usage
-
-```
-const icons = require('icons');
-
-// TODO: DEMONSTRATE API
-```
+A collection of svg icons built with React.

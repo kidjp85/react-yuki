@@ -13,7 +13,8 @@
     "lib/**/*"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
   "dependencies": {
     "styled-components": "^4.3.2",

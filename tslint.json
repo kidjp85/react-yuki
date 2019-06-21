@@ -7,7 +7,7 @@
   "linterOptions": {
     "exclude": [
       "node_modules/**/*.d.ts",
-      "s/**/*.d.ts"
+      "packages/**/*.d.ts"
     ]
   },
   "rules": {

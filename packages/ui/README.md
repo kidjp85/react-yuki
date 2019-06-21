@@ -1,11 +1,4 @@
-# `ui`
+@react-uki/ui
+================
 
-> TODO: description
-
-## Usage
-
-```
-const ui = require('ui');
-
-// TODO: DEMONSTRATE API
-```
+Simple React components built with styled-system
