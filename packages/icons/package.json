@@ -11,10 +11,6 @@
   "files": [
     "lib/**/*"
   ],
-  "scripts": {
-    "copypackage": "cp -rf package.json lib",
-    "build": "tsc && yarn copypackage"
-  },
   "devDependencies": {
     "typescript": "^3.5.2"
   },

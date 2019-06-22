@@ -16,7 +16,7 @@
   "scripts": {
     "commit": "git-cz",
     "bootstrap": "lerna bootstrap",
-    "build": "tsc -b packages/ui packages/icons",
+    "build": "tsc -b packages/ui packages/icons && yarn copypackage",
     "prerelease": "yarn lint && yarn clean && yarn build",
     "release": "cd packages/*/lib && lerna publish",
     "test": "jest --coverage --detectOpenHandles",
@@ -25,7 +25,8 @@
     "lint:ts:fix": "tslint 'packages/**/*.ts{,x}' --fix",
     "lint:style": "stylelint 'packages/**/*.ts?(x)'",
     "lint:style:fix": "stylelint 'packages/**/*.ts?(x)' --fix",
-    "lint": "yarn lint:ts && yarn lint:style"
+    "lint": "yarn lint:ts && yarn lint:style",
+    "copypackage": "cp -rf packages/*/package.json packages/*/lib"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",

@@ -12,10 +12,6 @@
   "files": [
     "lib/**/*"
   ],
-  "scripts": {
-    "copypackage": "cp -rf package.json lib",
-    "build": "tsc && yarn copypackage"
-  },
   "dependencies": {
     "styled-components": "^4.3.2",
     "styled-system": "^5.0.6"
