@@ -213,8 +213,8 @@ export const Text: FC<TextProps> = styled(Box)(
 
 Text.defaultProps = {
   as: 'span',
-  fontSize: '14px',
-  fontWeight: 'normal'
+  fontSize: 3,
+  fontWeight: 4
 };
 
 const headings = variant({ key: 'headings' });
@@ -225,8 +225,8 @@ export const Heading: FC<HeadingProps> = styled(Text)(headings, themed('Heading'
 Heading.defaultProps = {
   as: 'h2',
   m: 0,
-  fontSize: '24px',
-  fontWeight: 'bold'
+  fontSize: 5,
+  fontWeight: 6
 };
 
 // Image
@@ -247,7 +247,7 @@ export const Link: FC<LinkProps> = styled(Box)(themed('Link'));
 
 Link.defaultProps = {
   as: 'a',
-  color: 'dark'
+  color: 'blue.3'
 };
 
 // Svg

@@ -69,8 +69,8 @@ describe('Heading', () => {
     const json = renderJSON(<Heading />);
 
     expect(json!.type).toBe('h2');
-    expect(json).toHaveStyleRule('font-size', '24px');
-    expect(json).toHaveStyleRule('font-weight', 'bold');
+    expect(json).toHaveStyleRule('font-size', '32px');
+    expect(json).toHaveStyleRule('font-weight', 6);
   });
 });
 
@@ -94,7 +94,7 @@ describe('Link', () => {
     const json = renderJSON(<Link />);
 
     expect(json!.type).toBe('a');
-    expect(json).toHaveStyleRule('color', 'dark');
+    expect(json).toHaveStyleRule('color', 'blue.3');
   });
 });
 
