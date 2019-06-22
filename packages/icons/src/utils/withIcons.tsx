@@ -16,9 +16,7 @@ const withIcon: WithIcon = (IconName, Content) => {
 
     return (
       <svg viewBox={viewBox} {...rest} {...events}>
-        <g fill={fillColor} stroke={fillColor} strokeLinecap="square" strokeWidth={strokeWidth}>
-          <Content color={fillColor} strokeWidth={strokeWidth} />
-        </g>
+        <Content color={fillColor} strokeWidth={strokeWidth} />
       </svg>
     );
   };

@@ -2,7 +2,7 @@ import React from 'react';
 import withIcon from './utils/withIcons';
 
 export default withIcon('Slack', ({ color }) => (
-  <>
+  <g fill={color}>
     <path d="M18.133,2a4.4,4.4,0,1,0,0,8.8h4.4V6.4a4.4,4.4,0,0,0-4.4-4.4" />
     <path d="M18.133,13.733H6.4a4.4,4.4,0,1,0,0,8.8H18.134a4.4,4.4,0,0,0,0-8.8" fill={color} />
     <path d="M46,18.134a4.4,4.4,0,1,0-8.8,0v4.4h4.4a4.4,4.4,0,0,0,4.4-4.4" />
@@ -14,5 +14,5 @@ export default withIcon('Slack', ({ color }) => (
       d="M13.733,29.866V41.6a4.4,4.4,0,1,0,8.8,0V29.866a4.4,4.4,0,0,0-4.4-4.4h0a4.4,4.4,0,0,0-4.4,4.4"
       fill={color}
     />
-  </>
+  </g>
 ));
