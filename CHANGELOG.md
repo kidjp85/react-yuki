@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.11](https://github.com/kidjp85/react-yuki/compare/v0.0.10...v0.0.11) (2019-06-22)
+
+**Note:** Version bump only for package react-yuki
+
+
+
+
+
 ## [0.0.10](https://github.com/kidjp85/react-yuki/compare/v0.0.9...v0.0.10) (2019-06-22)
 
 **Note:** Version bump only for package react-yuki
