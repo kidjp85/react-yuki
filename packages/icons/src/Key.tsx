@@ -1,8 +1,8 @@
 import React from 'react';
 import withIcon from './utils/withIcons';
 
-export default withIcon('Key', ({ color }) => (
-  <>
+export default withIcon('Key', ({ color, strokeWidth }) => (
+  <g fill={color} stroke={color} strokeLinecap="square" strokeWidth={strokeWidth}>
     <ellipse
       cx="12"
       cy="34"
@@ -14,5 +14,5 @@ export default withIcon('Key', ({ color }) => (
     />
     <line fill="none" x1="23" x2="42" y1="23" y2="4" />
     <polyline fill="none" points="38,8 45,15 38,22 31,15 " strokeLinecap="butt" />
-  </>
+  </g>
 ));

@@ -1,8 +1,8 @@
 import React from 'react';
 import withIcon from './utils/withIcons';
 
-export default withIcon('Cart', ({ color }) => (
-  <>
+export default withIcon('Cart', ({ color, strokeWidth }) => (
+  <g fill={color} stroke={color} strokeLinecap="square" strokeWidth={strokeWidth}>
     <polyline
       fill="none"
       points="10 10 45 10 41 31 13 31 9 3 2 3"
@@ -11,5 +11,5 @@ export default withIcon('Cart', ({ color }) => (
     />
     <circle cx="15" cy="41" fill="none" r="4" />
     <circle cx="40" cy="41" fill="none" r="4" />
-  </>
+  </g>
 ));

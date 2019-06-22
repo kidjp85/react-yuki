@@ -1,8 +1,8 @@
 import React from 'react';
 import withIcon from './utils/withIcons';
 
-export default withIcon('Spaceship', ({ color }) => (
-  <>
+export default withIcon('Spaceship', ({ color, strokeWidth }) => (
+  <g fill={color} stroke={color} strokeLinecap="square" strokeWidth={strokeWidth}>
     <line
       fill="none"
       stroke={color}
@@ -34,5 +34,5 @@ export default withIcon('Spaceship', ({ color }) => (
       d="M4.464,36.464a5,5,0,0,1,7.072,7.072C9.583,45.488,2,46,2,46S2.512,38.417,4.464,36.464Z"
       fill="none"
     />
-  </>
+  </g>
 ));

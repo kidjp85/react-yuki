@@ -1,8 +1,8 @@
 import React from 'react';
 import withIcon from './utils/withIcons';
 
-export default withIcon('Edit', ({ color }) => (
-  <>
+export default withIcon('Edit', ({ color, strokeWidth }) => (
+  <g fill={color} stroke={color} strokeLinecap="square" strokeWidth={strokeWidth}>
     <line fill="none" strokeLinecap="butt" x1="7" x2="17" y1="31" y2="41" />
     <line fill="none" strokeLinecap="butt" x1="12" x2="34" y1="36" y2="14" />
     <line fill="none" x1="29" x2="39" y1="9" y2="19" />
@@ -11,5 +11,5 @@ export default withIcon('Edit', ({ color }) => (
       fill="none"
       stroke={color}
     />
-  </>
+  </g>
 ));
