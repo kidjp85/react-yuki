@@ -18,7 +18,7 @@
     "bootstrap": "lerna bootstrap",
     "build": "tsc -b packages/ui packages/icons",
     "prerelease": "yarn lint && yarn clean && yarn build",
-    "release": "lerna publish",
+    "release": "cd packages/*/lib && lerna publish",
     "test": "jest --coverage --detectOpenHandles",
     "clean": "rimraf packages/**/lib",
     "lint:ts": "tslint 'packages/**/*.ts{,x}'",
