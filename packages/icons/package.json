@@ -12,7 +12,7 @@
     "lib/**/*"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc & cd lib"
   },
   "devDependencies": {
     "typescript": "^3.5.2"
