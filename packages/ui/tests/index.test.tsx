@@ -70,7 +70,7 @@ describe('Heading', () => {
 
     expect(json!.type).toBe('h2');
     expect(json).toHaveStyleRule('font-size', '32px');
-    expect(json).toHaveStyleRule('font-weight', 6);
+    expect(json).toHaveStyleRule('font-weight', '6');
   });
 });
 
