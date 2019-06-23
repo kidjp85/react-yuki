@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { Svg } from '@react-yuki/ui';
+import { Svg } from '@react-yuki/ui/lib/index';
 import { WithIcon, IconProps } from './types';
 import useHover from './useHover';
 
