@@ -1,6 +1,6 @@
 {
   "name": "@react-yuki/icons",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Svg icon React components",
   "keywords": [
     "React",
@@ -12,7 +12,7 @@
     "lib/**/*"
   ],
   "dependencies": {
-    "@react-yuki/ui": "^0.0.17"
+    "@react-yuki/ui": "^0.0.18"
   },
   "devDependencies": {
     "typescript": "^3.5.2"
