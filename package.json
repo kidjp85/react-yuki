@@ -20,7 +20,7 @@
     "prerelease": "yarn lint && yarn clean && yarn build",
     "release": "cd packages/*/lib && lerna publish",
     "test": "jest --coverage --detectOpenHandles",
-    "clean": "rimraf packages/**/lib",
+    "clean": "rimraf packages/**/lib && rimraf packages/**/tsconfig.tsbuildinfo",
     "lint:ts": "tslint 'packages/**/*.ts{,x}'",
     "lint:ts:fix": "tslint 'packages/**/*.ts{,x}' --fix",
     "lint:style": "stylelint 'packages/**/*.ts?(x)'",
