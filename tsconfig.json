@@ -17,6 +17,7 @@
     "skipLibCheck": true,
     "experimentalDecorators": true,
     "esModuleInterop": true,
+    "composite": true,
     "baseUrl": "./packages",
     "paths": {
       "@react-yuki/*": ["./*/src"]
