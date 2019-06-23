@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { SvgProps } from '@react-yuki/ui/lib/types';
+import { SvgProps } from '@react-yuki/ui';
 
 export interface ContentProps extends SvgProps {
   color?: string;
