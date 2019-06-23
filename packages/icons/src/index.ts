@@ -50,3 +50,6 @@ export { default as Reddit } from './Reddit';
 export { default as Slack } from './Slack';
 export { default as Twitter } from './Twitter';
 export { default as Youtube } from './Youtube';
+
+// Types
+export { IconProps } from './utils/types';
