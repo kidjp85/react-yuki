@@ -1,18 +1,19 @@
 import { FC } from 'react';
+import { SvgProps } from '@react-yuki/ui';
 
-export interface ContentProps {
+export interface ContentProps extends SvgProps {
   color?: string;
   strokeWidth?: number;
 }
 
-export interface WrapperProps extends ContentProps {
+export interface IconProps extends ContentProps {
   width: number | string;
   height?: number | string;
   viewBox?: string;
   hoveredColor?: string;
 }
 
-export type WithIcon = (IconName: string, Component: FC<ContentProps>) => FC<WrapperProps>;
+export type WithIcon = (IconName: string, Component: FC<ContentProps>) => FC<IconProps>;
 
 export type UseHoverResponse = [
   boolean,

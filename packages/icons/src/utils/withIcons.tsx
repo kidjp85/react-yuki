@@ -1,9 +1,10 @@
 import React, { FunctionComponent } from 'react';
-import { WithIcon, WrapperProps } from './types';
+import { Svg } from '@react-yuki/ui';
+import { WithIcon, IconProps } from './types';
 import useHover from './useHover';
 
 const withIcon: WithIcon = (IconName, Content) => {
-  const Wrapper: FunctionComponent<WrapperProps> = ({
+  const Wrapper: FunctionComponent<IconProps> = ({
     color,
     hoveredColor,
     viewBox,
@@ -15,9 +16,9 @@ const withIcon: WithIcon = (IconName, Content) => {
     const fillColor = isHovered && hoveredColor ? hoveredColor : color;
 
     return (
-      <svg viewBox={viewBox} {...rest} {...events}>
+      <Svg viewBox={viewBox} {...rest} {...events}>
         <Content color={fillColor} strokeWidth={strokeWidth} />
-      </svg>
+      </Svg>
     );
   };
 

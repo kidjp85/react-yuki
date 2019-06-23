@@ -11,6 +11,9 @@
   "files": [
     "lib/**/*"
   ],
+  "dependencies": {
+    "@react-yuki/ui": "^0.0.14"
+  },
   "devDependencies": {
     "typescript": "^3.5.2"
   },
