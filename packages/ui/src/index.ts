@@ -224,6 +224,7 @@ export const Heading: FC<HeadingProps> = styled(Text)(headings, themed('Heading'
 
 Heading.defaultProps = {
   as: 'h2',
+  m: 0,
   fontSize: 5,
   fontWeight: 6
 };
