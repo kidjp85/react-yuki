@@ -1237,30 +1237,9 @@
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/styled-system/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/csstype/index.d.ts",
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/prop-types/index.d.ts": [
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/packages/ui/src/index.ts": [
-        "/users/ashernguyen/coding/react-yuki/packages/ui/src/styles.ts",
-        "/users/ashernguyen/coding/react-yuki/packages/ui/src/types.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/packages/ui/src/types.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/styled-system/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/styled-components/index.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/styled-components/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/csstype/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/packages/ui/src/styles.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/styled-components/index.d.ts"
       ],
       "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts": [
         "/users/ashernguyen/coding/react-yuki/node_modules/csstype/index.d.ts",
@@ -1269,47 +1248,53 @@
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-test-renderer/index.d.ts": [
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/styled-components/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/csstype/index.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/prop-types/index.d.ts",
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/styled-system/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/csstype/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/packages/ui/src/types.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/styled-system/index.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/globals.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/legacy-properties.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/batchedbridge.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/devtools.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/styled-components/index.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/legacy-properties.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-dom/index.d.ts": [
+      "/users/ashernguyen/coding/react-yuki/packages/ui/src/styles.ts": [
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/styled-components/index.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/enzyme/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/cheerio/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/enzyme-adapter-react-16/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/enzyme/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/prop-types/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      "/users/ashernguyen/coding/react-yuki/packages/ui/src/index.ts": [
+        "/users/ashernguyen/coding/react-yuki/packages/ui/src/styles.ts",
+        "/users/ashernguyen/coding/react-yuki/packages/ui/src/types.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts"
       ],
       "/users/ashernguyen/coding/react-yuki/node_modules/@babel/types/lib/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/babel__generator/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/babel__traverse/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@babel/types/lib/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/babel__template/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@babel/types/lib/index.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1322,32 +1307,216 @@
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/babel__template/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@babel/parser/typings/babel-parser.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@babel/types/lib/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@babel/parser/typings/babel-parser.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@babel/types/lib/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/babel__traverse/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@babel/types/lib/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/babel__generator/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@babel/types/lib/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/globals.d.ts": [
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/assert.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/async_hooks.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/buffer.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/events/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/child_process.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/cluster.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/child_process.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/console.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/constants.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/crypto.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/dgram.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/dns.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/dns.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/domain.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/fs.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/url.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/http.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/url.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/http2.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/fs.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/tls.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/url.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/http.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/https.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/tls.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/http.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/url.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/inspector.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/module.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/dns.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/os.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/path.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/perf_hooks.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/async_hooks.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/process.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/punycode.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/querystring.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/readline.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/repl.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/readline.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/vm.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/string_decoder.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/timers.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/tls.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/crypto.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/dns.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/trace_events.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/tty.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/url.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/querystring.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/v8.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/vm.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/worker_threads.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/vm.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/zlib.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1394,22 +1563,37 @@
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/zlib.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/globals.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/index.d.ts": [
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/base.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/globals.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/vfile/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/unist/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/vfile-message/index.d.ts",
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/cheerio/index.d.ts": [
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/index.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/vfile-message/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/unist/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/index.d.ts",
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/enzyme/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/cheerio/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/enzyme-adapter-react-16/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/enzyme/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/minimatch/index.d.ts": [
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1420,257 +1604,12 @@
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/cheerio/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/index.d.ts",
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/async_hooks.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/perf_hooks.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/async_hooks.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/buffer.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/events/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/child_process.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/cluster.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/child_process.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/console.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/constants.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/crypto.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/tls.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/crypto.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/dns.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/https.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/tls.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/http.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/url.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/http2.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/fs.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/tls.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/url.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/http.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/dgram.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/dns.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/dns.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/dns.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/tty.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/http.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/url.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/net.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/domain.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/worker_threads.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/vm.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/zlib.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/v8.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/readline.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/repl.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/readline.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/vm.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/fs.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/stream.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/url.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/inspector.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/events.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/module.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/os.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/path.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/process.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/punycode.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/querystring.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/url.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/querystring.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/string_decoder.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/timers.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/trace_events.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/yargs/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/unist/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/stack-utils/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/devtools.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/devtools.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/batchedbridge.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/globals.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/normalize-package-data/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/jest/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/jest-diff/build/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/jest-diff/index.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/jest-diff/build/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/jest-diff/build/types.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/jest-diff/build/types.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/jest-diff/index.d.ts": [
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/istanbul-lib-coverage/index.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1680,28 +1619,89 @@
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/istanbul-lib-report/index.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/jest-diff/index.d.ts": [
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+      "/users/ashernguyen/coding/react-yuki/node_modules/jest-diff/build/types.d.ts": [
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/minimatch/index.d.ts": [
+      "/users/ashernguyen/coding/react-yuki/node_modules/jest-diff/build/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/jest-diff/build/types.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/globals.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/globals.d.ts",
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/jest/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/jest-diff/build/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/jest-diff/index.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts": [
-        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts"
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/normalize-package-data/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/vm.d.ts": [
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-dom/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/globals.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/legacy-properties.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/batchedbridge.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/devtools.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/devtools.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/prop-types/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/globals.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/legacy-properties.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/batchedbridge.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-native/devtools.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/react-test-renderer/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/react/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/stack-utils/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/unist/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/vfile-message/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/unist/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/vfile/index.d.ts": [
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/unist/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/vfile-message/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
+        "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/ashernguyen/coding/react-yuki/node_modules/@types/yargs/index.d.ts": [
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/util.d.ts",
         "/users/ashernguyen/coding/react-yuki/node_modules/@types/node/ts3.2/util.d.ts"
       ]
