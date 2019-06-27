@@ -11,7 +11,7 @@ const withIcon: WithIcon = (IconName, Content) => {
     strokeWidth,
     ...rest
   }) => {
-    const [isHovered, events] = useHover();
+    const [isHovered, events] = useHover(hoveredColor !== undefined);
 
     const fillColor = isHovered && hoveredColor ? hoveredColor : color;
 

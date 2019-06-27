@@ -17,10 +17,13 @@ export type WithIcon = (IconName: string, Component: FC<ContentProps>) => FC<Ico
 
 export type UseHoverResponse = [
   boolean,
-  {
-    onMouseEnter: (e: React.MouseEvent) => void;
-    onMouseLeave: (e: React.MouseEvent) => void;
-  }
+
+
+    | {
+        onMouseEnter: (e: React.MouseEvent) => void;
+        onMouseLeave: (e: React.MouseEvent) => void;
+      }
+    | object
 ];
 
-export type UseHover = () => UseHoverResponse;
+export type UseHover = (onHovered: boolean) => UseHoverResponse;

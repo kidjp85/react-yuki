@@ -37,6 +37,7 @@ export { default as Warning } from './Warning';
 export { default as Calendar } from './Calendar';
 export { default as User } from './User';
 export { default as Spaceship } from './Spaceship';
+export { default as Code } from './Code';
 
 // Social icons
 export { default as Codepen } from './Codepen';
