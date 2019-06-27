@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, MouseEvent } from 'react';
 import { SvgProps } from '@react-yuki/ui';
 
 export interface ContentProps extends SvgProps {
@@ -15,15 +15,11 @@ export interface IconProps extends ContentProps {
 
 export type WithIcon = (IconName: string, Component: FC<ContentProps>) => FC<IconProps>;
 
-export type UseHoverResponse = [
-  boolean,
+interface EventType {
+  onMouseEnter?: (e: MouseEvent) => void;
+  onMouseLeave?: (e: MouseEvent) => void;
+}
 
-
-    | {
-        onMouseEnter: (e: React.MouseEvent) => void;
-        onMouseLeave: (e: React.MouseEvent) => void;
-      }
-    | object
-];
+export type UseHoverResponse = [boolean, EventType];
 
 export type UseHover = (onHovered: boolean) => UseHoverResponse;
