@@ -175,7 +175,7 @@ const buttons = variant({ key: 'buttons' });
 export const Button: FC<ButtonProps> = styled(Flex)(
   {
     appearance: 'none',
-    display: 'inline-block',
+    display: 'inline-flex',
     textAlign: 'center',
     lineHeight: 'inherit',
     textDecoration: 'none'
@@ -190,7 +190,6 @@ Button.defaultProps = {
   as: 'button',
   fontSize: 'inherit',
   fontWeight: 3,
-  display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   m: 0,
