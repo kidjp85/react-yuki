@@ -189,7 +189,7 @@ export const Button: FC<ButtonProps> = styled(Flex)(
 Button.defaultProps = {
   as: 'button',
   fontSize: 'inherit',
-  fontWeight: 4,
+  fontWeight: 3,
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
@@ -213,8 +213,8 @@ export const Text: FC<TextProps> = styled(Box)(
 
 Text.defaultProps = {
   as: 'span',
-  fontSize: 3,
-  fontWeight: 4
+  fontSize: 4,
+  fontWeight: 3
 };
 
 const headings = variant({ key: 'headings' });
@@ -225,7 +225,7 @@ export const Heading: FC<HeadingProps> = styled(Text)(headings, themed('Heading'
 Heading.defaultProps = {
   as: 'h2',
   m: 0,
-  fontSize: 5,
+  fontSize: 6,
   fontWeight: 6
 };
 
