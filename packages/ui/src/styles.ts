@@ -350,7 +350,7 @@ export const theme = {
       '#7a0a00'
     ]
   },
-  space: [0, 4, 8, 16, 20, 24, 28, 32, 64, 128, 256, 512],
+  space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   fonts: {
     base: `BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif`,
     monospace: `"Inconsolata", "Consolas", "Monaco", monospace`
