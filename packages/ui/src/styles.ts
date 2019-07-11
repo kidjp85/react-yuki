@@ -188,7 +188,7 @@ export const normalize: FlattenInterpolation<any> = css`
 
 export const theme = {
   breakpoints: ['48rem', '64rem', '76rem', '88rem'],
-  fontSizes: [8, 10, 12, 14, 16, 18, 20, 22, 24, , 26, 28, 30, 32, 48, 64],
+  fontSizes: [8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 48, 64],
   colors: {
     white: '#ffffff',
     black: '#000000',
@@ -350,7 +350,7 @@ export const theme = {
       '#7a0a00'
     ]
   },
-  space: [0, 4, 8, 16, 20, 24, 28, 32, 64, 128, 256, 512],
+  space: [4, 8, 16, 20, 24, 28, 32, 64, 128, 256, 512],
   fonts: {
     base: `BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif`,
     monospace: `"Inconsolata", "Consolas", "Monaco", monospace`
