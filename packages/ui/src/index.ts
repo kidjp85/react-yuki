@@ -76,7 +76,8 @@ import {
   LinkProps,
   SvgProps,
   ThemeProps,
-  GridProps
+  GridProps,
+  InputProps
 } from './types';
 
 export { theme, normalize } from './styles';
@@ -92,6 +93,7 @@ export {
   SvgProps,
   ThemeProps,
   GridProps,
+  InputProps,
   VariantProps
 } from './types';
 
@@ -259,3 +261,26 @@ Svg.defaultProps = {
   viewBox: '0 0 48 48',
   display: 'inline-block'
 };
+
+// Input
+export const Input: FC<InputProps> = styled(Flex)(
+  {
+    appearance: 'none',
+    alignItems: 'center',
+    boxShadow: 'none',
+    display: 'inline-flex',
+    position: 'relative',
+    verticalAlign: 'top',
+    '&:focus, &:active': {
+      outline: 'none'
+    },
+    '&[disabled]': {
+      cursor: 'not-allowed'
+    },
+    userSelect: 'none',
+    cursor: 'pointer'
+  },
+  fontWeight,
+  variant({ key: 'inputs' }),
+  themed('Input')
+);

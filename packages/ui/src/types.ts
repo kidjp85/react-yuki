@@ -167,6 +167,14 @@ export interface TextProps
   extends TextBaseProps,
     Omit<React.HTMLProps<HTMLDivElement>, keyof TextBaseProps> {}
 
+// Input
+interface InputBaseProps extends BoxProps {}
+
+export interface InputProps
+  extends InputBaseProps,
+    VariantProps,
+    Omit<HTMLProps<HTMLDivElement>, keyof InputBaseProps> {}
+
 // Heading
 export interface HeadingProps extends TextProps, VariantProps {}
 
