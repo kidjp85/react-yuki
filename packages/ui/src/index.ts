@@ -284,3 +284,15 @@ export const Input: FC<InputProps> = styled(Flex)(
   variant({ key: 'inputs' }),
   themed('Input')
 );
+
+Input.defaultProps = {
+  as: 'input',
+  fontSize: 3,
+  px: 3,
+  py: 2,
+  border: 1,
+  borderColor: 'gray.4',
+  bg: 'white',
+  color: 'gray.9',
+  borderRadius: 2
+};
