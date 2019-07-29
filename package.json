@@ -8,6 +8,13 @@
       "pre-commit": "yarn lint"
     }
   },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint",
+      "stylelint",
+      "git add"
+    ]
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
@@ -21,8 +28,8 @@
     "release": "cd packages/*/lib && lerna publish",
     "test": "jest --coverage --detectOpenHandles",
     "clean": "rimraf packages/**/lib && rimraf packages/**/tsconfig.tsbuildinfo",
-    "lint:ts": "tslint 'packages/**/*.ts{,x}'",
-    "lint:ts:fix": "tslint 'packages/**/*.ts{,x}' --fix",
+    "lint:ts": "eslint 'packages/**/*.ts{,x}'",
+    "lint:ts:fix": "eslint 'packages/**/*.ts{,x}' --fix",
     "lint:style": "stylelint 'packages/**/*.ts?(x)'",
     "lint:style:fix": "stylelint 'packages/**/*.ts?(x)' --fix",
     "lint": "yarn lint:ts && yarn lint:style"
@@ -38,6 +45,8 @@
     "@types/react": "^16.8.7",
     "@types/react-dom": "^16.8.2",
     "@types/react-test-renderer": "^16.8.1",
+    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.12.0",
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.5",
     "commitizen": "^3.1.1",
@@ -45,10 +54,20 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.3.5",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.11.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.6.1",
     "husky": "^2.3.0",
     "jest": "^24.8.0",
     "jest-styled-components": "^6.3.3",
     "lerna": "^3.15.0",
+    "lint-staged": "^9.2.1",
     "prettier": "^1.16.4",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -60,12 +79,6 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.7.0",
     "ts-jest": "^24.0.0",
-    "tslint": "^5.13.1",
-    "tslint-config-airbnb": "^5.11.1",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-loader": "^3.5.4",
-    "tslint-plugin-prettier": "^2.0.1",
-    "tslint-react": "^3.6.0",
     "typescript": "^3.5.2"
   },
   "author": "Asher Nguyen <phucnguyenhoang1985@gmail.com>",
