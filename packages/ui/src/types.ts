@@ -187,7 +187,7 @@ export interface ImageProps
 
 export interface ThemeProps {
   theme: {
-    [key: string]: object;
+    [key: string]: string | string[];
   };
 }
 
