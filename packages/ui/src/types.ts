@@ -109,7 +109,7 @@ export interface BaseStyleProps
     LineHeightProps,
     VerticalAlignProps {
   as?: ReactType;
-  css?: CSSObject | BaseThemedCssFunction<unknown> | string;
+  css?: CSSObject | BaseThemedCssFunction<object> | string;
 }
 
 // Box
@@ -187,7 +187,7 @@ export interface ImageProps
 
 export interface ThemeProps {
   theme: {
-    [key: string]: unknown;
+    [key: string]: object;
   };
 }
 

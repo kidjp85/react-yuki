@@ -1,6 +1,6 @@
 import { css, FlattenInterpolation } from 'styled-components';
 
-export const normalize: FlattenInterpolation<unknown> = css`
+export const normalize: FlattenInterpolation<{}> = css`
   /* stylelint-disable*/
 
   html {
