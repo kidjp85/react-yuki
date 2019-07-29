@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.30](https://github.com/kidjp85/react-yuki/compare/v0.0.28...v0.0.30) (2019-07-29)
+
+**Note:** Version bump only for package @react-yuki/ui
+
+
+
+
+
 ## [0.0.29](https://github.com/kidjp85/react-yuki/compare/v0.0.28...v0.0.29) (2019-07-29)
 
 **Note:** Version bump only for package @react-yuki/ui
