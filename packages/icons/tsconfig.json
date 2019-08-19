@@ -5,7 +5,8 @@
     "outDir": "lib"
   },
   "references": [
-    { "path": "../ui" }
+    { "path": "../ui" },
+    { "path": "../hooks" }
   ],
   "include": ["src"]
 }
