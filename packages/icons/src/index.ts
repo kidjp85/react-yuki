@@ -39,6 +39,8 @@ export { default as User } from './User';
 export { default as Spaceship } from './Spaceship';
 export { default as Code } from './Code';
 export { default as Copy } from './Copy';
+export { default as Compass } from './Compass';
+export { default as RobotVacuum } from './RobotVacuum';
 
 // Social icons
 export { default as Codepen } from './Codepen';

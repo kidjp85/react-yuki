@@ -1,20 +1,16 @@
 {
   "name": "@react-yuki/icons",
   "version": "0.0.32",
-  "description": "Svg icon React components",
+  "description": "A collection of React hooks",
   "keywords": [
     "React",
-    "Svg icons"
+    "hooks"
   ],
   "main": "lib/index",
   "types": "lib/index.d.ts",
   "files": [
     "lib/**/*"
   ],
-  "dependencies": {
-    "@react-yuki/ui": "^0.0.32",
-    "@react-yuki/hooks": "^0.0.32"
-  },
   "devDependencies": {
     "typescript": "^3.5.2"
   },
@@ -22,6 +18,5 @@
     "access": "public"
   },
   "author": "Asher Nguyen <phucnguyenhoang1985@gmail.com>",
-  "license": "MIT",
-  "gitHead": "3bf1ad536b88f378111a5d489be94cc309f425e4"
+  "license": "MIT"
 }
