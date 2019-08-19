@@ -23,7 +23,7 @@
   "scripts": {
     "commit": "git-cz",
     "bootstrap": "lerna bootstrap",
-    "build": "tsc -b packages/ui packages/icons",
+    "build": "tsc -b packages/ui packages/icons packages/hooks",
     "prerelease": "yarn lint && yarn clean && yarn build",
     "release": "cd packages/*/lib && lerna publish",
     "test": "jest --coverage --detectOpenHandles",
