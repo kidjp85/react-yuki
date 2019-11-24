@@ -1,37 +1,26 @@
-import { HTMLProps, ReactType } from 'react';
+import { ElementType, RefAttributes, HTMLProps } from 'react';
+import { ResponsiveStyleValue, SystemStyleObject, Theme } from '@styled-system/css';
+import { CSSObject } from 'styled-components';
+
 import {
-  // space
   SpaceProps,
-  // color
-  ColorProps,
-  // typography
+  LayoutProps,
+  PositionProps,
   FontSizeProps,
+  FlexProps as FlexDefaultProps,
+  ColorProps,
+  OrderProps,
+  BorderProps,
+  BackgroundProps,
+  AlignSelfProps,
+  ResponsiveValue,
+  FlexboxProps,
   FontFamilyProps,
   FontWeightProps,
-  LineHeightProps,
   TextAlignProps,
-  FontStyleProps,
   LetterSpacingProps,
-  TextStyleProps,
-  // layout
-  DisplayProps,
-  WidthProps,
-  HeightProps,
-  MaxHeightProps,
-  MinHeightProps,
-  MaxWidthProps,
-  MinWidthProps,
-  // Borders
-  BordersProps,
-  // Flexbox
-  AlignItemsProps,
-  JustifyContentProps,
-  FlexWrapProps,
-  FlexDirectionProps,
-  FlexProps,
-  AlignSelfProps,
-  OrderProps,
-  // Grid
+  ButtonStyleProps,
+  BoxShadowProps,
   GridGapProps,
   GridColumnGapProps,
   GridRowGapProps,
@@ -42,90 +31,68 @@ import {
   GridAutoRowsProps,
   GridTemplateColumnsProps,
   GridTemplateRowsProps,
-  GridTemplatesAreasProps,
-  GridAreaProps,
-  // Position
-  PositionProps,
-  ZIndexProps,
-  TopProps,
-  LeftProps,
-  RightProps,
-  BottomProps,
-  // Backgrounds
-  BackgroundProps,
-  BackgroundImageProps,
-  BackgroundSizeProps,
-  BackgroundPositionProps,
-  BackgroundRepeatProps,
-  // Others
-  OpacityProps,
-  OverflowProps,
-  BoxShadowProps,
-  VerticalAlignProps,
-  ButtonStyleProps,
-  ResponsiveValue,
-  Theme
+  GridTemplateAreasProps,
+  GridAreaProps
 } from 'styled-system';
-import { CSSObject, BaseThemedCssFunction } from 'styled-components';
 
-type Omit<T, K> = Pick<T, Exclude<keyof T, K>>;
+export type Omit<T, K> = Pick<T, Exclude<keyof T, K>>;
+
+export type SxStyleProp =
+  | SystemStyleObject
+  | Record<
+      string,
+      | SystemStyleObject
+      | ResponsiveStyleValue<number | string>
+      | Record<string, SystemStyleObject | ResponsiveStyleValue<number | string>>
+    >;
+
+export interface SxProps {
+  sx?: SxStyleProp;
+  theme?: Theme;
+  __css?: SxStyleProp;
+}
+
+export type Sx = (props: SxProps) => CSSObject;
 
 export interface VariantProps {
-  variant?: ResponsiveValue<string>;
+  variant?: string | string[];
+  theme?: Theme;
+  tx?: string;
 }
 
-// Base props
+export type Variant = (props: VariantProps) => CSSObject;
+
+export interface BaseProps extends RefAttributes<{}> {
+  as?: ElementType;
+  css?: CSSObject;
+}
+
 export interface BaseStyleProps
-  extends SpaceProps,
+  extends BaseProps,
+    SpaceProps,
+    LayoutProps,
+    FontSizeProps,
     ColorProps,
-    DisplayProps,
-    WidthProps,
-    HeightProps,
-    MaxHeightProps,
-    MinHeightProps,
-    MaxWidthProps,
-    MinWidthProps,
-    BordersProps,
-    FlexProps,
+    FlexDefaultProps,
+    FlexboxProps,
     OrderProps,
     AlignSelfProps,
-    PositionProps,
-    ZIndexProps,
-    TopProps,
-    RightProps,
-    BottomProps,
-    LeftProps,
-    OverflowProps,
+    BorderProps,
     BackgroundProps,
-    BackgroundImageProps,
-    BackgroundSizeProps,
-    BackgroundPositionProps,
-    BackgroundRepeatProps,
-    FontSizeProps,
-    FontStyleProps,
-    TextStyleProps,
-    OpacityProps,
+    PositionProps,
     BoxShadowProps,
-    LineHeightProps,
-    VerticalAlignProps {
-  as?: ReactType;
-  css?: CSSObject | BaseThemedCssFunction<object> | string;
+    SxProps {
+  variant?: ResponsiveValue<string>;
+  tx?: string;
+  color?: string;
 }
 
-// Box
 export interface BoxProps
   extends BaseStyleProps,
     Omit<HTMLProps<HTMLDivElement>, keyof BaseStyleProps> {}
 
-// Flex
-export interface FlexBoxProps
-  extends BoxProps,
-    FlexWrapProps,
-    FlexDirectionProps,
-    AlignItemsProps,
-    JustifyContentProps {}
+export interface FlexProps extends BoxProps {}
 
-// Grid
 export interface GridProps
   extends BoxProps,
     GridGapProps,
@@ -138,24 +105,9 @@ export interface GridProps
     GridAutoRowsProps,
     GridTemplateColumnsProps,
     GridTemplateRowsProps,
-    GridTemplatesAreasProps,
+    GridTemplateAreasProps,
     GridAreaProps {}
 
-// Button
-interface ButtonBaseProps extends FlexBoxProps, FontWeightProps, ButtonStyleProps {}
-
-export interface ButtonProps
-  extends ButtonBaseProps,
-    VariantProps,
-    Omit<HTMLProps<HTMLDivElement>, keyof ButtonBaseProps> {}
-
-// Link
-interface LinkBaseProps extends BoxProps {}
-export interface LinkProps
-  extends LinkBaseProps,
-    Omit<React.HTMLProps<HTMLAnchorElement>, keyof LinkBaseProps> {}
-
-// Text
 interface TextBaseProps
   extends BaseStyleProps,
     FontFamilyProps,
@@ -165,38 +117,26 @@ interface TextBaseProps
 
 export interface TextProps
   extends TextBaseProps,
-    Omit<React.HTMLProps<HTMLDivElement>, keyof TextBaseProps> {}
+    Omit<HTMLProps<HTMLDivElement>, keyof TextBaseProps> {}
 
-// Input
-interface InputBaseProps extends BoxProps {}
+export interface HeadingProps
+  extends TextBaseProps,
+    Omit<HTMLProps<HTMLHeadingElement>, keyof TextBaseProps> {}
 
-export interface InputProps
-  extends InputBaseProps,
-    VariantProps,
-    Omit<HTMLProps<HTMLDivElement>, keyof InputBaseProps> {}
+export interface LinkProps extends BoxProps {}
 
-// Heading
-export interface HeadingProps extends TextProps, VariantProps {}
+interface ButtonBaseProps extends FlexProps, FontWeightProps, ButtonStyleProps {}
 
-// Image
-interface ImageBaseProps extends BoxProps {}
+export interface ButtonProps
+  extends ButtonBaseProps,
+    Omit<HTMLProps<HTMLDivElement>, keyof ButtonBaseProps> {}
 
-export interface ImageProps
-  extends ImageBaseProps,
-    Omit<React.HTMLProps<HTMLImageElement>, keyof ImageBaseProps> {}
-
-export interface ThemeProps {
-  theme: {
-    [key: string]: string | string[];
-  };
-}
+export interface ImageProps extends BoxProps {}
 
 export interface SvgProps extends BoxProps {
   viewBox?: string;
+  xmlns?: string;
+  fill?: string;
 }
 
-export interface DefaultTheme extends Theme {
-  colors: {
-    [key: string]: string[] | string;
-  };
-}
+export interface OverlayProps extends BoxProps {}

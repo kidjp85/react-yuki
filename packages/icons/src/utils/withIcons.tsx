@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
-import { WithIcon, IconProps } from './types';
 import { useHover } from '@react-yuki/hooks';
 import { Svg } from '@react-yuki/ui';
+import { WithIcon, IconProps } from './types';
 
 const withIcon: WithIcon = (IconName, Content) => {
   const Wrapper: FunctionComponent<IconProps> = ({

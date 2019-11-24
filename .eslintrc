@@ -29,8 +29,12 @@
   },
   "rules": {
     "import/no-unresolved": "error",
-    "import/order": "error",
     "import/named": "off",
+    "import/no-named-as-default" : "off",
+    "import/default": "off",
+    "import/order": ["error", {
+      "groups": ["external", "builtin", "internal", "parent", "sibling", "index" ]
+    }],
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-explicit-any": ["error"],
     "@typescript-eslint/explicit-member-accessibility": "off",
