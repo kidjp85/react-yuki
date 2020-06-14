@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 import { FlexProps } from './types';
 import Box from './Box';
 

@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@react-yuki/*": ["./node_modules/@react-yuki/*"]
+    }
+  },
+  "exclude": ["**/*.stories.*", "**/*.test.*", "lib"],
+  "include": []
+}

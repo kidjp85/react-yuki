@@ -1,7 +1,7 @@
 import palx from 'palx';
-import { css, FlattenInterpolation } from 'styled-components';
+import { css } from '@emotion/core';
 
-export const normalize: FlattenInterpolation<{}> = css`
+export const normalize = css`
   /* stylelint-disable*/
 
   html {
@@ -189,7 +189,6 @@ export const normalize: FlattenInterpolation<{}> = css`
 
 export const colors = {
   white: '#fff',
-  black: '#000',
   dark: '#333',
   ...palx('#5CACEE')
 };

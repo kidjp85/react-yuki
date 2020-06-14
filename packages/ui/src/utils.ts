@@ -1,9 +1,9 @@
 import css, { get } from '@styled-system/css';
-import { Sx, Variant } from './types';
+import { StyledFunction, Variant } from './types';
 
-export const sx: Sx = props => css(props.sx)(props.theme);
+export const sx: StyledFunction = props => css(props.sx)(props.theme);
 
-export const base: Sx = props => css(props.__css)(props.theme);
+export const __css: StyledFunction = props => css(props.__css)(props.theme);
 
-export const variant: Variant = ({ theme = {}, variant = '', tx = 'variants' }) =>
-  css(get(theme, tx + '.' + variant, get(theme, variant)))(theme);
+export const variant: Variant = ({ theme = {}, variant: styledVariant = '', tx = 'variants' }) =>
+  css(get(theme, `${tx}.${styledVariant}`, get(theme, styledVariant)))(theme);

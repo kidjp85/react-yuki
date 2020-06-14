@@ -1,6 +1,7 @@
 import { useRef, useEffect } from 'react';
+import { UseScrollToBottom } from './types';
 
-const useScrollToBottom = <T>(prop: T) => {
+const useScrollToBottom: UseScrollToBottom = prop => {
   const ref = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {

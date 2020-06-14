@@ -1,26 +1,39 @@
 {
   "compilerOptions": {
-    "jsx": "react",
-    "target": "es2017",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata":true,
+    "experimentalDecorators":true,
+    "lib": [
+      "es6",
+      "dom",
+      "es2015"
+    ],
+    "target": "es5",
     "module": "commonjs",
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "sourceMap": false,
     "declaration": true,
-    "declarationMap": false,
-    "inlineSourceMap": true,
     "strict": true,
+    "jsx":"react",
+    "moduleResolution":"node",
+    "allowSyntheticDefaultImports":true,
+    "noImplicitAny":true,
+    "noImplicitThis":true,
+    "noImplicitReturns":true,
+    "strictNullChecks":true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "removeComments": false,
-    "preserveConstEnums": true,
-    "skipLibCheck": true,
-    "experimentalDecorators": true,
-    "esModuleInterop": true,
-    "composite": true,
-    "baseUrl": "./packages",
+    "rootDir": ".",
+    "baseUrl": ".",
     "paths": {
-      "@react-yuki/*": ["./*/src"]
+      "@react-yuki/*": ["packages/*/src"],
+       "*": ["node_modules", "packages"]
     }
-  }
+  },
+  "awesomeTypescriptLoaderOptions": {
+    "reportFiles": [
+      "packages/*/src"
+    ]
+  },
+  "include": ["packages"],
+  "exclude": ["node_modules", "packages/*/lib"]
 }

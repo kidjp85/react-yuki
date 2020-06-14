@@ -1,43 +1,34 @@
-import { ElementType, RefAttributes, HTMLProps } from 'react';
-import { ResponsiveStyleValue, SystemStyleObject, Theme } from '@styled-system/css';
-import { CSSObject } from 'styled-components';
-
+import {
+  ElementType,
+  RefAttributes,
+  HTMLProps,
+  PropsWithoutRef,
+  ForwardRefExoticComponent
+} from 'react';
+import { ResponsiveStyleValue, SystemStyleObject, Theme, CSSObject } from '@styled-system/css';
 import {
   SpaceProps,
   LayoutProps,
   PositionProps,
   FontSizeProps,
   FlexProps as FlexDefaultProps,
+  FontStyleProps,
   ColorProps,
   OrderProps,
   BorderProps,
   BackgroundProps,
   AlignSelfProps,
-  ResponsiveValue,
   FlexboxProps,
   FontFamilyProps,
+  TypographyProps,
   FontWeightProps,
   TextAlignProps,
   LetterSpacingProps,
-  ButtonStyleProps,
   BoxShadowProps,
-  GridGapProps,
-  GridColumnGapProps,
-  GridRowGapProps,
-  GridColumnProps,
-  GridRowProps,
-  GridAutoFlowProps,
-  GridAutoColumnsProps,
-  GridAutoRowsProps,
-  GridTemplateColumnsProps,
-  GridTemplateRowsProps,
-  GridTemplateAreasProps,
-  GridAreaProps
+  GridProps as GridDefaultProps
 } from 'styled-system';
 
-export type Omit<T, K> = Pick<T, Exclude<keyof T, K>>;
-
-export type SxStyleProp =
+export type StyledObject =
   | SystemStyleObject
   | Record<
       string,
@@ -46,23 +37,19 @@ export type SxStyleProp =
       | Record<string, SystemStyleObject | ResponsiveStyleValue<number | string>>
     >;
 
-export interface SxProps {
-  sx?: SxStyleProp;
-  theme?: Theme;
-  __css?: SxStyleProp;
-}
-
-export type Sx = (props: SxProps) => CSSObject;
-
-export interface VariantProps {
-  variant?: string | string[];
+export interface StyledProps {
+  sx?: StyledObject;
   theme?: Theme;
   tx?: string;
+  variant?: string | string[];
+  __css?: StyledObject;
 }
 
-export type Variant = (props: VariantProps) => CSSObject;
+export type StyledFunction = (props: StyledProps) => CSSObject;
 
-export interface BaseProps extends RefAttributes<{}> {
+export type Variant = (props: StyledProps) => CSSObject;
+
+export interface BaseProps extends RefAttributes<any> { //eslint-disable-line
   as?: ElementType;
   css?: CSSObject;
 }
@@ -81,62 +68,50 @@ export interface BaseStyleProps
     BackgroundProps,
     PositionProps,
     BoxShadowProps,
-    SxProps {
-  variant?: ResponsiveValue<string>;
-  tx?: string;
+    TypographyProps,
+    FontFamilyProps,
+    FontWeightProps,
+    GridDefaultProps,
+    StyledProps {
   color?: string;
 }
 
-export interface BoxProps
-  extends BaseStyleProps,
-    Omit<HTMLProps<HTMLDivElement>, keyof BaseStyleProps> {}
-
-export interface FlexProps extends BoxProps {}
-
-export interface GridProps
-  extends BoxProps,
-    GridGapProps,
-    GridColumnGapProps,
-    GridRowGapProps,
-    GridColumnProps,
-    GridRowProps,
-    GridAutoFlowProps,
-    GridAutoColumnsProps,
-    GridAutoRowsProps,
-    GridTemplateColumnsProps,
-    GridTemplateRowsProps,
-    GridTemplateAreasProps,
-    GridAreaProps {}
+export type StyledRefComponent<T, P = {}> = ForwardRefExoticComponent<
+  PropsWithoutRef<P> & RefAttributes<T>
+>;
 
 interface TextBaseProps
-  extends BaseStyleProps,
-    FontFamilyProps,
-    FontWeightProps,
+  extends FontWeightProps,
     TextAlignProps,
+    FontStyleProps,
     LetterSpacingProps {}
 
-export interface TextProps
-  extends TextBaseProps,
-    Omit<HTMLProps<HTMLDivElement>, keyof TextBaseProps> {}
+export interface StyledComponentProps<T = HTMLDivElement>
+  extends BaseStyleProps,
+    Omit<HTMLProps<T>, keyof BaseStyleProps> {}
 
-export interface HeadingProps
-  extends TextBaseProps,
-    Omit<HTMLProps<HTMLHeadingElement>, keyof TextBaseProps> {}
+export interface BoxProps extends StyledComponentProps {}
 
-export interface LinkProps extends BoxProps {}
+export interface FlexProps extends StyledComponentProps {}
 
-interface ButtonBaseProps extends FlexProps, FontWeightProps, ButtonStyleProps {}
+export interface GridProps extends StyledComponentProps {}
 
-export interface ButtonProps
-  extends ButtonBaseProps,
-    Omit<HTMLProps<HTMLDivElement>, keyof ButtonBaseProps> {}
+export interface TextProps extends StyledComponentProps, TextBaseProps {}
 
-export interface ImageProps extends BoxProps {}
+export interface HeadingProps extends StyledComponentProps<HTMLHeadingElement>, TextBaseProps {}
 
-export interface SvgProps extends BoxProps {
+export interface LinkProps extends StyledComponentProps {}
+
+export interface ButtonProps extends StyledComponentProps {}
+
+export interface ImageProps extends StyledComponentProps {}
+
+export interface SvgProps extends StyledComponentProps {
   viewBox?: string;
   xmlns?: string;
   fill?: string;
 }
 
-export interface OverlayProps extends BoxProps {}
+export interface OverlayProps extends StyledComponentProps {}
+
+export interface DividerProps extends StyledComponentProps {}
