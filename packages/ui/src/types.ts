@@ -5,6 +5,7 @@ import {
   PropsWithoutRef,
   ForwardRefExoticComponent
 } from 'react';
+import { MotionProps } from 'framer-motion';
 import { ResponsiveStyleValue, SystemStyleObject, Theme, CSSObject } from '@styled-system/css';
 import {
   SpaceProps,
@@ -106,6 +107,11 @@ export interface ButtonProps extends StyledComponentProps {}
 
 export interface ImageProps extends StyledComponentProps {}
 
+export type AnimatedComponentProps<P> = PropsWithoutRef<Omit<P, keyof MotionProps> & MotionProps> &
+  RefAttributes<Element>;
+
+export type AnimatedProps = AnimatedComponentProps<BoxProps>;
+
 export interface SvgProps extends StyledComponentProps {
   viewBox?: string;
   xmlns?: string;
@@ -115,3 +121,5 @@ export interface SvgProps extends StyledComponentProps {
 export interface OverlayProps extends StyledComponentProps {}
 
 export interface DividerProps extends StyledComponentProps {}
+
+export type OmitMotionProps<P> = Omit<P, keyof MotionProps>;

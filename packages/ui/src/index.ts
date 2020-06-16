@@ -19,7 +19,8 @@ export {
   ButtonProps,
   SvgProps,
   OverlayProps,
-  ImageProps
+  ImageProps,
+  AnimatedProps
 } from './types';
 
 export { colors, normalize, theme } from './styles';
