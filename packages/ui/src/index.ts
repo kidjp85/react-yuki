@@ -8,6 +8,7 @@ export { default as Link } from './Link';
 export { default as Svg } from './Svg';
 export { default as Image } from './Image';
 export { default as Overlay } from './Overlay';
+export { default as Animated } from './Animated';
 
 export {
   BoxProps,
