@@ -10,7 +10,7 @@ const Text = forwardRef<HTMLDivElement, TextProps>((props, ref) => (
     variant="default"
     {...props}
     __css={{
-      fontSize: '3',
+      fontSize: 3,
       lineHeight: 'normal'
     }}
   />
