@@ -10,7 +10,8 @@
   "types": "lib/index.d.ts",
   "files": [
     "/*.d.ts",
-    "/*.js"
+    "/*.js",
+    "utils"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
