@@ -1,11 +1,11 @@
 import React from 'react';
 import withIcon from './utils/withIcons';
 
-export default withIcon('Spaceship', ({ color, strokeWidth }) => (
-  <g fill={color} stroke={color} strokeLinecap="square" strokeWidth={strokeWidth}>
+export default withIcon('Spaceship', ({ strokeWidth }) => (
+  <g fill="currentColor" stroke="currentColor" strokeLinecap="square" strokeWidth={strokeWidth}>
     <line
       fill="none"
-      stroke={color}
+      stroke="currentColor"
       strokeLinecap="butt"
       x1="29.769"
       x2="41.866"
@@ -15,19 +15,19 @@ export default withIcon('Spaceship', ({ color, strokeWidth }) => (
     <path
       d="M24.831,8.965C18.989,6.449,11.5,8,6,15l6.734,6.736"
       fill="none"
-      stroke={color}
+      stroke="currentColor"
       strokeLinecap="butt"
     />
     <path
       d="M39.035,23.169C41.551,29.011,40,36.5,33,42l-6.736-6.734"
       fill="none"
-      stroke={color}
+      stroke="currentColor"
       strokeLinecap="butt"
     />
     <path
       d="M21,38,10,27S18.894,3.414,46,2C44.468,28.988,21,38,21,38Z"
       fill="none"
-      stroke={color}
+      stroke="currentColor"
     />
     <circle cx="27" cy="21" fill="none" r="4" />
     <path

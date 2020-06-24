@@ -6,3 +6,8 @@ packages/*/lib
 *.log
 coverage
 packages/*/tsconfig.tsbuildinfo
+
+# For icons package
+packages/icons/*.js
+packages/icons/*.d.ts
+packages/icons/utils

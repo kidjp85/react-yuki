@@ -1,4 +1,4 @@
-import { SFC } from 'react';
+import { FC } from 'react';
 import { SvgProps } from '@react-yuki/ui';
 
 export interface ContentProps extends SvgProps {
@@ -13,4 +13,4 @@ export interface IconProps extends ContentProps {
   hoveredColor?: string;
 }
 
-export type WithIcon = (IconName: string, Component: SFC<ContentProps>) => SFC<IconProps>;
+export type WithIcon = (IconName: string, Component: FC<ContentProps>) => FC<IconProps>;

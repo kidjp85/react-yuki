@@ -1,9 +1,9 @@
 import React from 'react';
 import withIcon from './utils/withIcons';
 
-export default withIcon('Question', ({ color, strokeWidth }) => (
-  <g fill={color} stroke={color} strokeLinecap="square" strokeWidth={strokeWidth}>
-    <circle cx="24" cy="24" fill="none" r="22" stroke={color} />
+export default withIcon('Question', ({ strokeWidth }) => (
+  <g fill="currentColor" stroke="currentColor" strokeLinecap="square" strokeWidth={strokeWidth}>
+    <circle cx="24" cy="24" fill="none" r="22" stroke="currentColor" />
     <circle cx="24" cy="36" r="1" stroke="none" />
     <circle cx="24" cy="36" fill="none" r="1" />
     <path

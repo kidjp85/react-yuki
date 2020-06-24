@@ -1,12 +1,12 @@
 import React from 'react';
 import withIcon from './utils/withIcons';
 
-export default withIcon('Tag', ({ color, strokeWidth }) => (
-  <g fill={color} stroke={color} strokeLinecap="square" strokeWidth={strokeWidth}>
+export default withIcon('Tag', ({ strokeWidth }) => (
+  <g fill="currentColor" stroke="currentColor" strokeLinecap="square" strokeWidth={strokeWidth}>
     <path
       d="M30.485,43.828,43.828,30.485a4,4,0,0,0,0-5.657L22,3H3V22L24.828,43.828A4,4,0,0,0,30.485,43.828Z"
       fill="none"
-      stroke={color}
+      stroke="currentColor"
     />
     <circle cx="14" cy="14" fill="none" r="4" />
     <line fill="none" x1="25" x2="33" y1="19" y2="27" />

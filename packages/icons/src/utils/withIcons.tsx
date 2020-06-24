@@ -1,26 +1,13 @@
-import React, { FunctionComponent } from 'react';
-import { useHover } from '@react-yuki/hooks';
+import React, { forwardRef } from 'react';
 import { Svg } from '@react-yuki/ui';
 import { WithIcon, IconProps } from './types';
 
 const withIcon: WithIcon = (IconName, Content) => {
-  const Wrapper: FunctionComponent<IconProps> = ({
-    color,
-    hoveredColor,
-    viewBox,
-    strokeWidth,
-    ...rest
-  }) => {
-    const [isHovered, events] = useHover(hoveredColor !== undefined);
-
-    const fillColor = isHovered && hoveredColor ? hoveredColor : color;
-
-    return (
-      <Svg viewBox={viewBox} {...rest} {...events}>
-        <Content color={fillColor} strokeWidth={strokeWidth} />
-      </Svg>
-    );
-  };
+  const Wrapper = forwardRef<HTMLDivElement, IconProps>(({ strokeWidth, ...rest }, ref) => (
+    <Svg {...rest} ref={ref}>
+      <Content strokeWidth={strokeWidth} />
+    </Svg>
+  ));
 
   Wrapper.displayName = IconName;
 

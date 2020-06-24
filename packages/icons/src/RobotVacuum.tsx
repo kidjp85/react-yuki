@@ -1,8 +1,8 @@
 import React from 'react';
 import withIcon from './utils/withIcons';
 
-export default withIcon('RobotVacuum', ({ color }) => (
-  <g fill={color}>
+export default withIcon('RobotVacuum', () => (
+  <g fill="currentColor">
     <path d="M440 96a8 8 0 0 1-8-8c-.027-22.082-17.918-39.973-40-40a8 8 0 0 1 0-16c30.914.035 55.965 25.086 56 56a8 8 0 0 1-8 8zm0 0" />
     <path d="M408 96c-4.418 0-8-3.582-8-8s-3.582-8-8-8a8 8 0 0 1 0-16c13.254 0 24 10.746 24 24a8 8 0 0 1-8 8zm0 0" />
     <path d="M472 96a8 8 0 0 1-8-8c-.047-39.746-32.254-71.953-72-72a8 8 0 0 1 0-16c48.578.059 87.941 39.422 88 88a8 8 0 0 1-8 8zm0 0" />
