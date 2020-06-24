@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.40](https://github.com/kidjp85/react-yuki/compare/@react-yuki/icons@0.0.39...@react-yuki/icons@0.0.40) (2020-06-24)
+
+**Note:** Version bump only for package @react-yuki/icons
+
+
+
+
+
 ## 0.0.39 (2020-06-24)
 
 
