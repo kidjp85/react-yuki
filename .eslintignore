@@ -1,2 +1,6 @@
 packages/*/lib
 node_modules
+
+packages/icons/*.d.ts
+packages/icons/utils/**/*.js
+packages/icons/utils/**/*.d.ts
