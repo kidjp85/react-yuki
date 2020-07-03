@@ -13,4 +13,8 @@ export interface IconProps extends ContentProps {
   hoveredColor?: string;
 }
 
-export type WithIcon = (IconName: string, Component: FC<ContentProps>) => FC<IconProps>;
+export type WithIcon = (
+  iconName: string,
+  Component: FC<ContentProps>,
+  viewbox?: string
+) => FC<IconProps>;
