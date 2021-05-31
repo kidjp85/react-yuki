@@ -1,5 +1,5 @@
 import palx from 'palx';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 export const normalize = css`
   /* stylelint-disable*/

@@ -17,11 +17,11 @@
     "build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
-    "@react-yuki/hooks": "^0.0.38",
-    "@react-yuki/ui": "^0.0.38"
+    "@react-yuki/hooks": "0.0.38",
+    "@react-yuki/ui": "0.0.38"
   },
   "devDependencies": {
-    "typescript": "^3.5.2"
+    "typescript": "4.3.2"
   },
   "publishConfig": {
     "access": "public"

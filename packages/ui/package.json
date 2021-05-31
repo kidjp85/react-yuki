@@ -16,20 +16,20 @@
     "build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
-    "@emotion/styled": "^10.0.27",
-    "@styled-system/css": "^5.0.23",
-    "@styled-system/should-forward-prop": "^5.1.5",
-    "@types/palx": "^1.0.1",
-    "@types/styled-system": "^5.1.9",
-    "@types/styled-system__css": "^5.0.11",
-    "@types/styled-system__should-forward-prop": "^5.1.1",
-    "framer-motion": "^1.11.1",
-    "palx": "^1.0.3",
-    "styled-components": "^5.1.1",
+    "@emotion/react": "11.4.0",
+    "@emotion/styled": "11.3.0",
+    "@styled-system/css": "5.1.5",
+    "@styled-system/should-forward-prop": "5.1.5",
+    "@types/palx": "1.0.1",
+    "@types/styled-system": "5.1.11",
+    "@types/styled-system__css": "5.0.14",
+    "@types/styled-system__should-forward-prop": "5.1.2",
+    "framer-motion": "4.1.17",
+    "palx": "1.0.3",
     "styled-system": "^5.1.2"
   },
   "devDependencies": {
-    "typescript": "^3.9.5"
+    "typescript": "4.3.2"
   },
   "publishConfig": {
     "access": "public"

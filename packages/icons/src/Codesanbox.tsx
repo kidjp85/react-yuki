@@ -2,7 +2,7 @@ import React from 'react';
 import withIcon from './utils/withIcons';
 
 export default withIcon(
-  'Codesanbox',
+  'Codesandbox',
   () => (
     <g>
       <path
