@@ -1,6 +1,6 @@
 {
   "name": "@react-yuki/icons",
-  "version": "0.0.44",
+  "version": "0.0.45",
   "description": "Svg icon React components",
   "keywords": [
     "React",
@@ -17,8 +17,8 @@
     "build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
-    "@react-yuki/hooks": "^0.0.41",
-    "@react-yuki/ui": "^0.0.41"
+    "@react-yuki/hooks": "^0.0.42",
+    "@react-yuki/ui": "^0.0.42"
   },
   "devDependencies": {
     "typescript": "4.5.2"
