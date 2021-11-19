@@ -190,34 +190,99 @@ export const normalize = css`
 export const colors = {
   white: '#fff',
   dark: '#333',
-  ...palx('#5CACEE')
+  ...palx('#F8485E')
 };
 
 export const theme = {
   breakpoints: ['48rem', '64rem', '76rem', '88rem'],
-  fontSizes: [8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 48, 64],
+  fontSizes: {
+    xxs: 10,
+    xs: 12,
+    s: 14,
+    m: 16,
+    l: 20,
+    xl: 30,
+    xxl: 40
+  },
   colors,
-  space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
+  space: {
+    '-xxxl': -96,
+    '-xxl': -64,
+    '-xl': -48,
+    '-l': -32,
+    '-m': -16,
+    '-s': -12,
+    '-xs': -8,
+    '-xxs': -4,
+    '-xxxs': -2,
+    '-gutter': -24,
+    none: 0,
+    gutter: 24,
+    xxxs: 2,
+    xxs: 4,
+    xs: 8,
+    s: 12,
+    m: 16,
+    l: 32,
+    xl: 48,
+    xxl: 64,
+    xxxl: 96
+  },
   fonts: {
     base: `BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif`,
     monospace: `"Inconsolata", "Consolas", "Monaco", monospace`
   },
-  fontWeights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+  fontWeights: {
+    regular: 400,
+    medium: 500,
+    bold: 700
+  },
   lineHeights: {
-    normal: 1,
-    medium: 1.25,
-    large: 1.5
+    none: 1,
+    tight: 1.25,
+    snug: 1.375,
+    normal: 1.5,
+    relaxed: 1.625,
+    loose: 2
   },
   letterSpacings: {
-    small: '-0.05rem',
-    normal: 'normal',
-    medium: '0.1rem',
-    large: '0.25rem'
+    tighter: '-0.05em',
+    tight: '-0.025em',
+    normal: 0,
+    wide: '0.025em',
+    wider: '0.05em',
+    widest: '0.1em'
   },
   shadows: {
     small: '0 0 4px rgba(0, 0, 0, .125)',
     large: '0 0 24px rgba(0, 0, 0, .125)'
   },
-  borders: [0, '1px solid', '2px solid', '4px solid', '8px solid', '16px solid', '32px solid'],
-  radii: [0, 2, 4, 6, 16, 9999, '50%', '100%']
+  borders: {
+    none: 0,
+    xs: '1px solid',
+    s: '2px solid',
+    m: '4px solid',
+    l: '6px solid',
+    xl: '8px solid'
+  },
+  radii: {
+    none: 0,
+    full: 9999,
+    round: '50%',
+    s: 2,
+    m: 4,
+    l: 6,
+    xl: 8,
+    xxl: 16
+  },
+  zIndices: {
+    none: 0,
+    auto: 'auto',
+    z1: 1,
+    z10: 10,
+    z20: 20,
+    z30: 30,
+    z40: 40,
+    z50: 50
+  }
 };
