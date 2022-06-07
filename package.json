@@ -11,7 +11,6 @@
   "lint-staged": {
     "*.{ts,tsx}": [
       "eslint",
-      "stylelint",
       "git add"
     ]
   },
@@ -33,9 +32,7 @@
     "clean": "run-p clean:icons clean:other",
     "lint:ts": "eslint 'packages/**/*.ts{,x}'",
     "lint:ts:fix": "eslint 'packages/**/*.ts{,x}' --fix",
-    "lint:style": "stylelint 'packages/**/*.ts?(x)'",
-    "lint:style:fix": "stylelint 'packages/**/*.ts?(x)' --fix",
-    "lint": "yarn lint:ts && yarn lint:style"
+    "lint": "yarn lint:ts"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
